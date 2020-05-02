@@ -25,7 +25,7 @@ float flip(float v, float pct){
 
 
 float circleSDF(vec2 pos, float r){
-    return length(pos) - r;
+    return length(pos-.5) - r;
 }
 
 float rectSDF(vec2 pos, vec2 s){
