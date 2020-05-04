@@ -59,3 +59,7 @@ Pixel spirit deck : https://patriciogonzalezvivo.github.io/PixelSpiritDeck/
 <img src="assets/13_merge.gif" width="400" height="200" />
 
 [MERGE](https://b2renger.github.io/p5js_pixel-spirit-deck_shaders/13_merge/)
+
+<img src="assets/14_hope.gif" width="400" height="200" />
+
+[HOPE](https://b2renger.github.io/p5js_pixel-spirit-deck_shaders/14_hope/)
