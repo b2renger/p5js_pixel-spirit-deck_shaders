@@ -59,10 +59,10 @@ void main() {
 
     float sdf = vesicaSDF(st, .4,.0);
 
-    float sdf2  = step(.5, fract(sdf *1. * (cos(u_time*PI)*.5)));
+    float sdf2  = step(.5, fract(sdf *.5 ));
 
-    col += flip(fill(sdf2, 0.05), 
-                step((st.x + st.y )*.5 ,  .5));
+    col += abs(flip(fill(sdf2, 0.05) + cos(u_time), 
+                step((st.x + st.y )*.5 ,  .5)) );
 
    // col *= fill(sdf2, .5);
     gl_FragColor = vec4(col, 1.0);
