@@ -54,7 +54,7 @@ void main() {
     vec3 col = vec3(.0);
     float dev =  (sin(u_time )*PI )  ;
 
-    float rect = rectSDF(st , vec2(.5, 1.5)) ;
+    float rect = rectSDF(st , vec2(.7, 1.3)) ;
     float diag = ( .5*(st.x-dev) + st.y*(.5+dev));
 
     float flip = flip(fill(rect, .6), stroke(diag,.5,.025 + abs(dev*0.02) ));
