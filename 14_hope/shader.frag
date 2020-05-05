@@ -57,7 +57,7 @@ void main() {
     }
     vec3 col = vec3(.0);
 
-    float sdf = vesicaSDF(st, .4,.0);
+    float sdf = vesicaSDF(st, .4, .0);
 
     float sdf2  = step(.5, fract(sdf *.5 ));
 
