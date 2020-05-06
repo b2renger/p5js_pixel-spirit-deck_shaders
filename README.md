@@ -67,3 +67,7 @@ Pixel spirit deck : https://patriciogonzalezvivo.github.io/PixelSpiritDeck/
 <img src="assets/15_the_temple.gif" width="400" height="250" />
 
 [THE TEMPLE](https://b2renger.github.io/p5js_pixel-spirit-deck_shaders/15_the_temple/)
+
+<img src="assets/16_the_summit.gif" width="400" height="250" />
+
+[THE SUMMIT](https://b2renger.github.io/p5js_pixel-spirit-deck_shaders/16_the_summit/)
