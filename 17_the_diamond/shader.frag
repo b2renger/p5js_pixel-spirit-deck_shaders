@@ -9,7 +9,7 @@ uniform float u_time;
 #define PI 3.1415926538
 varying vec2 vTexCoord;
 
-// styles 
+// texture position - stroke position - width
 float stroke (float x, float s, float w){
     float d = step(s, x + w*.5) - step (s , x - w*.5);
     return clamp(d, 0.0, 1.0);
@@ -24,7 +24,6 @@ float flip(float v, float pct){
 }
 
 
-// shapes
 float circleSDF(vec2 pos, float r){
     return length(pos-.5) - r;
 }
@@ -39,24 +38,20 @@ float crossSDF(vec2 pos, float s){
     return min(rectSDF(pos, size.xy), rectSDF(pos, size.yx));
 }
 
-float boxSDF(in vec2 _st, in vec2 _size){
-    _size = vec2(0.5) - _size*0.5;
-    vec2 uv = smoothstep(_size,
-                        _size+vec2(0.001),
-                        _st);
-    uv *= smoothstep(_size,
-                    _size+vec2(0.001),
-                    vec2(1.0)-_st);
-    return uv.x*uv.y;
+float vesicaSDF(vec2 st, float u){
+    vec2 offset = vec2 (0.5*u);
+    return max(circleSDF(st - offset, u), circleSDF(st + offset, u ));
 }
 
-
-// geometry
-mat2 rotate2d(float _angle){
-    return mat2(cos(_angle),-sin(_angle),
-                sin(_angle),cos(_angle));
+float triSDF(vec2 st){
+    st = (st*2. -1.)*2.;
+    return max(abs(st.x)*0.866025 + st.y * 0.5, -st.y*0.5);
 }
 
+float rhombSDF(vec2 st){
+    return max(triSDF(st), triSDF(vec2(st.x , 1. - st.y)));
+
+}
 
 
 void main() {
@@ -71,28 +66,19 @@ void main() {
         st.x *= u_resolution.x/u_resolution.y;
         st.x -= (u_resolution.x*.5-u_resolution.y*.5)/u_resolution.y;
     }
-
     vec3 col = vec3(.0);
-    float dev =  (sin(u_time )*PI )  ;
-
-    float rect = rectSDF(st , vec2(.7, 1.3)) ;
-    vec2 p =  gl_FragCoord.xy/u_resolution.xy;
-
-    // move space from the center to the vec2(0.0)
-    st -= vec2(0.5);
-    // rotate the space
-    st = rotate2d( (pow(sin(u_time), 13.) * PI *1./3.  + PI/3.) ) * st;
-    // move it back to the original place
-    st += vec2(0.5);
-
-
-    //float diag = ( .5*(st.x) + st.y*(-.5));
-    float diag = boxSDF(st, vec2(.025,4.5));
     
-    float flip = 1.0 -flip(  fill(rect, .6), fill(diag,.5  ));
-    col+= flip;
+    float sdf = rhombSDF(vec2(st.x , st.y));
+
+    col += fill(sdf , .45);
+
+    const float n = 8.;
+    float period = PI/4.;
+    for (float i = 0. ; i < n ; i += 1.){
+        col += stroke(sdf , .57 + i*.12, (sin(mod(u_time *0.5 + ((n-i)/n) * period/2. , period) - period/2. ))* 0.015 * (n-i) );
+    }   
     
- 
+
     gl_FragColor = vec4(col, 1.0);
 }
 
