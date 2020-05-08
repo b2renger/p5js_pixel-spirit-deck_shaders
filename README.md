@@ -71,3 +71,7 @@ Pixel spirit deck : https://patriciogonzalezvivo.github.io/PixelSpiritDeck/
 <img src="assets/16_the_summit.gif" width="400" height="250" />
 
 [THE SUMMIT](https://b2renger.github.io/p5js_pixel-spirit-deck_shaders/16_the_summit/)
+
+<img src="assets/17_the_diamond.gif" width="400" height="250" />
+
+[THE DIAMOND](https://b2renger.github.io/p5js_pixel-spirit-deck_shaders/17_the_diamond/)
