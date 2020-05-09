@@ -79,3 +79,7 @@ Pixel spirit deck : https://patriciogonzalezvivo.github.io/PixelSpiritDeck/
 <img src="assets/18_the_hermit.gif" width="400" height="250" />
 
 [THE HERMIT](https://b2renger.github.io/p5js_pixel-spirit-deck_shaders/18_the_hermit/)
+
+<img src="assets/19_intuition.gif" width="400" height="250" />
+
+[INTUITION](https://b2renger.github.io/p5js_pixel-spirit-deck_shaders/19_intuition/)
