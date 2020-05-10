@@ -83,3 +83,7 @@ Pixel spirit deck : https://patriciogonzalezvivo.github.io/PixelSpiritDeck/
 <img src="assets/19_intuition.gif" width="400" height="250" />
 
 [INTUITION](https://b2renger.github.io/p5js_pixel-spirit-deck_shaders/19_intuition/)
+
+<img src="assets/20_the_stone.gif" width="400" height="250" />
+
+[THE STONE](https://b2renger.github.io/p5js_pixel-spirit-deck_shaders/20_the_stone/)
