@@ -109,3 +109,7 @@ All the functions will be published to a public gist at the end of the process.
 <img src="assets/23_opposite.gif" width="400" height="200" />
 
 [OPPOSITE](https://b2renger.github.io/p5js_pixel-spirit-deck_shaders/23_opposite/)
+
+<img src="assets/24_the_oak.gif" width="400" height="200" />
+
+[THE OAK](https://b2renger.github.io/p5js_pixel-spirit-deck_shaders/24_the_oak/)
