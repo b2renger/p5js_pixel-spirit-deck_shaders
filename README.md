@@ -117,3 +117,7 @@ All the functions will be published to a public gist at the end of the process.
 <img src="assets/25_ripples.gif" width="400" height="200" />
 
 [RIPPLES](https://b2renger.github.io/p5js_pixel-spirit-deck_shaders/25_ripples/)
+
+<img src="assets/26_the_empress.gif" width="400" height="200" />
+
+[THE EMPRESS](https://b2renger.github.io/p5js_pixel-spirit-deck_shaders/26_the_empress/)
