@@ -125,3 +125,7 @@ All the functions will be published to a public gist at the end of the process.
 <img src="assets/27_bundle.gif" width="400" height="200" />
 
 [BUNDLE](https://b2renger.github.io/p5js_pixel-spirit-deck_shaders/27_bundle/)
+
+<img src="assets/28_the_devil.gif" width="400" height="200" />
+
+[THE DEVIL](https://b2renger.github.io/p5js_pixel-spirit-deck_shaders/28_the_devil/)
