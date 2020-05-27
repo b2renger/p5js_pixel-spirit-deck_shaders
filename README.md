@@ -137,3 +137,7 @@ All the functions will be published to a public gist at the end of the process.
 <img src="assets/30_the_star.gif" width="400" height="200" />
 
 [THE STAR](https://b2renger.github.io/p5js_pixel-spirit-deck_shaders/30_the_star/)
+
+<img src="assets/31_judgement.gif" width="400" height="200" />
+
+[JUDGEMENT](https://b2renger.github.io/p5js_pixel-spirit-deck_shaders/31_judgement/)
