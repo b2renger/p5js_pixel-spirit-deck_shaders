@@ -145,3 +145,7 @@ All the functions will be published to a public gist at the end of the process.
 <img src="assets/32_wheel_of_fortune.gif" width="400" height="200" />
 
 [WHEEL OF FORTUNE](https://b2renger.github.io/p5js_pixel-spirit-deck_shaders/32_wheel_of_fortune/)
+
+<img src="assets/33_vision.gif" width="400" height="200" />
+
+[VISION](https://b2renger.github.io/p5js_pixel-spirit-deck_shaders/33_vision/)
