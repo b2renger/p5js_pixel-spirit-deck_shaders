@@ -149,3 +149,7 @@ All the functions will be published to a public gist at the end of the process.
 <img src="assets/33_vision.gif" width="400" height="200" />
 
 [VISION](https://b2renger.github.io/p5js_pixel-spirit-deck_shaders/33_vision/)
+
+<img src="assets/34_the_lovers.gif" width="400" height="200" />
+
+[THE LOVERS](https://b2renger.github.io/p5js_pixel-spirit-deck_shaders/34_the_lovers/)
