@@ -165,3 +165,7 @@ All the functions will be published to a public gist at the end of the process.
 <img src="assets/37_holding_together.gif" width="400" height="200" />
 
 [HOLDING TOGETHER](https://b2renger.github.io/p5js_pixel-spirit-deck_shaders/37_holding_together/)
+
+<img src="assets/38_the_chariot.gif" width="400" height="200" />
+
+[THE CHARIOT](https://b2renger.github.io/p5js_pixel-spirit-deck_shaders/38_the_chariot/)
