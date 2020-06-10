@@ -169,3 +169,7 @@ All the functions will be published to a public gist at the end of the process.
 <img src="assets/38_the_chariot.gif" width="400" height="200" />
 
 [THE CHARIOT](https://b2renger.github.io/p5js_pixel-spirit-deck_shaders/38_the_chariot/)
+
+<img src="assets/39_the_loop.gif" width="400" height="200" />
+
+[THE LOOP](https://b2renger.github.io/p5js_pixel-spirit-deck_shaders/39_the_loop/)
