@@ -181,3 +181,8 @@ All the functions will be published to a public gist at the end of the process.
 <img src="assets/41_trinity.gif" width="400" height="200" />
 
 [TRINITY](https://b2renger.github.io/p5js_pixel-spirit-deck_shaders/41_trinity/)
+
+
+<img src="assets/42_the_cauldron.gif" width="400" height="200" />
+
+[THE CAULDRON](https://b2renger.github.io/p5js_pixel-spirit-deck_shaders/42_the_cauldron/)
