@@ -189,3 +189,7 @@ All the functions will be published to a public gist at the end of the process.
 <img src="assets/43_the_elders.gif" width="400" height="200" />
 
 [THE ELDERS](https://b2renger.github.io/p5js_pixel-spirit-deck_shaders/43_the_elders/)
+
+<img src="assets/44_the_core.gif" width="400" height="200" />
+
+[THE CORE](https://b2renger.github.io/p5js_pixel-spirit-deck_shaders/44_the_core/)
