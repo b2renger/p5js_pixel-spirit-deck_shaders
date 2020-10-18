@@ -196,4 +196,8 @@ All the functions will be published to a public gist at the end of the process.
 
 <img src="assets/45_inner_truth.gif" width="400" height="200" />
 
-[INNER TRUTH](https://b2renger.github.io/p5js_pixel-spirit-deck_shaders/44_inner_truth/)
+[INNER TRUTH](https://b2renger.github.io/p5js_pixel-spirit-deck_shaders/45_inner_truth/)
+
+<img src="assets/46_the_world.gif" width="400" height="200" />
+
+[THE WORLD](https://b2renger.github.io/p5js_pixel-spirit-deck_shaders/46_the_world/)
