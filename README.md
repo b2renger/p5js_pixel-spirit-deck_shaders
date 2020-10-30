@@ -201,3 +201,15 @@ All the functions will be published to a public gist at the end of the process.
 <img src="assets/46_the_world.gif" width="400" height="200" />
 
 [THE WORLD](https://b2renger.github.io/p5js_pixel-spirit-deck_shaders/46_the_world/)
+
+<img src="assets/47_the_fool.gif" width="400" height="200" />
+
+[THE FOOL](https://b2renger.github.io/p5js_pixel-spirit-deck_shaders/47_the_fool/)
+
+<img src="assets/48_enlightenment.png" width="400" height="200" />
+
+[ENLIGHTENMENT](https://b2renger.github.io/p5js_pixel-spirit-deck_shaders/47_enlightenment/)
+
+<img src="assets/elements.gif" width="400" height="200" />
+
+[ELEMENTS](https://b2renger.github.io/p5js_pixel-spirit-deck_shaders/elements/)
